@@ -1,0 +1,64 @@
+.top {
+    height: 100%;
+    background-color: #233a77;
+    opacity: 0.85;
+    padding-left: 45%;
+    padding-top: 25%
+}
+
+.bottom {
+    height: 100%;
+    width: 100%;
+    background-image: url("./images/Math_Background.jpg");
+    background-repeat: no-repeat;
+    background-size: 150% 150%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5)
+}
+
+/*
+.about-me{
+    position:absolute;
+    left: 44%;
+    right: auto;
+    top: 60%;
+}
+*/
+
+.about-me2{
+    position:absolute;
+    left: 25%;
+    right: 25%;
+    top: 40%;
+    bottom: 40%;
+}
+
+.one {
+    font-size: 25px;
+    color: white;
+}
+
+.two {
+    color: white;
+}
+
+.img{
+    margin-top: 28%;
+    height: 50px;
+    width: 50px;
+    background-image: url("./images/arrow.png");
+    background-size: 100% 100%;
+}
+
+.box{
+  float:left;
+  height: 100%;
+  width: 50%;
+  background-color: orange;
+}
+
+.box2{
+  float:right;
+  height: 100%;
+  width: 50%;
+  background-color: indigo;
+}
