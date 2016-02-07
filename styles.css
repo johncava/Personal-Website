@@ -8,8 +8,16 @@
 
 }
 
+.pic{
+    position: relative;
+    height: 100%;
+}
+
 .terminal{
+    min-height: 700px;
     background-image: url("./images/backgroundTerminal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .terminal2{
@@ -61,6 +69,12 @@
 a.resume:hover{
     background-color: green;
 }
+
+
+#image-test{
+    display: none;
+}
+
 
 .blinking-cursor {
   font-weight: 100;
