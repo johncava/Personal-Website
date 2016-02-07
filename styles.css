@@ -8,6 +8,30 @@
 
 }
 
+.terminal{
+    background-image: url("./images/backgroundTerminal.jpg");
+}
+
+.terminal2{
+    height: 500px;
+    width: 100%;
+    background-image: url("./images/LargerTerminal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.resume{
+    color: white;
+    font-size: 25px;
+}
+
+.contain{
+  position: relative;
+  top: 30%;
+  padding-left:5%;
+  /*background-color: blue;*/
+}
+
 .about-me{
     width: 100%;
     margin: auto;
@@ -34,6 +58,65 @@
     color: white;
 }
 
+a.resume:hover{
+    background-color: green;
+}
+
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 30px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
 
 /*
 .img{
@@ -44,16 +127,3 @@
     background-size: 100% 100%;
 }
 */
-.box{
-  float:left;
-  height: 100%;
-  width: 70%;
-  background-color: orange;
-}
-
-.box2{
-  float:right;
-  height: 100%;
-  width: 50%;
-  background-color: indigo;
-}
